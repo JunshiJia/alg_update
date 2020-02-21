@@ -1,0 +1,7 @@
+com\junshijia\Alg\domain\AlgData.class
+com\junshijia\Alg\FetchAlgData.class
+com\junshijia\Alg\AlgData2Json.class
+com\junshijia\Alg\Util.class
+com\junshijia\Alg\dao\AlgDataDao.class
+com\junshijia\Alg\health\SendHealth.class
+com\junshijia\Alg\Main.class
