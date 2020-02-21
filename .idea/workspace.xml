@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839bdc80-839e-475c-8f6d-54b16082088d" name="Default Changelist" comment="" />
+    <list default="true" id="839bdc80-839e-475c-8f6d-54b16082088d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/original-MingyangAlg-1.01.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/Alg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/Alg/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/Alg/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/Alg/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/junshijia/Alg/health/SendHealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/junshijia/Alg/health/SendHealth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MingyangAlg-1.00.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/MingyangAlg-1.01.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/Alg/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/Alg/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/Alg/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/Alg/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/junshijia/Alg/health/SendHealth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/junshijia/Alg/health/SendHealth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-MingyangAlg-1.00.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-healthTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/healthTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/healthTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test1.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +54,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\code\2020\MingyangAlg\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -48,13 +77,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -65,22 +95,25 @@
       <recent name="D:\MingyangAlg\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.healthTest.healthTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.junshijia.Alg.Main" />
+      <module name="MingyangAlg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.junshijia.Alg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="healthTest.healthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MingyangAlg" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="healthTest" />
       <option name="METHOD_NAME" value="healthTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1.playString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MingyangAlg" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test1" />
-      <option name="METHOD_NAME" value="playString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.healthTest.healthTest" />
         <item itemvalue="JUnit.test1.test0FetchAlgData" />
         <item itemvalue="JUnit.test1.testUpdateWarningState" />
         <item itemvalue="JUnit.test1.testint" />
-        <item itemvalue="JUnit.test1.playString" />
       </list>
     </recent_temporary>
   </component>
@@ -168,42 +201,64 @@
       <workItem from="1578618261972" duration="140000" />
       <workItem from="1578721132500" duration="2687000" />
       <workItem from="1582017715082" duration="372000" />
-      <workItem from="1582245007633" duration="274000" />
+      <workItem from="1582245007633" duration="9027000" />
+      <workItem from="1582269925256" duration="4616000" />
     </task>
+    <task id="LOCAL-00001" summary="first version">
+      <created>1582245323206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582245323206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="first version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1578444099862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1578444099862" />
+    <state x="560" y="112" key="CommitChangelistDialog2" timestamp="1582245322004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582245322004" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1582245281081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582245281081" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582018087161">
+    <state width="1860" height="247" key="GridCell.Tab.0.bottom" timestamp="1582269906125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582018087161" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582018087161">
+    <state width="1860" height="247" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582269906125" />
+    <state width="1860" height="247" key="GridCell.Tab.0.center" timestamp="1582269906125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582018087161" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582018087161">
+    <state width="1860" height="247" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582269906125" />
+    <state width="1860" height="247" key="GridCell.Tab.0.left" timestamp="1582269906125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582018087161" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582018087161">
+    <state width="1860" height="247" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582269906125" />
+    <state width="1860" height="247" key="GridCell.Tab.0.right" timestamp="1582269906125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582018087161" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1582245251200">
+    <state width="1860" height="247" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582269906125" />
+    <state x="2248" y="13" key="SettingsEditor" timestamp="1582265805874">
+      <screen x="1920" y="0" width="1366" height="728" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582265331169" />
+    <state x="2248" y="13" key="SettingsEditor/0.0.1920.1040/1920.0.1366.728@1920.0.1366.728" timestamp="1582265805874" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582245401252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582245251200" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1582245401252" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1578531395207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,7 +273,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/junshijia/Alg/Util.java</url>
-          <line>66</line>
+          <line>68</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

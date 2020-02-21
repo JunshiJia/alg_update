@@ -50,7 +50,7 @@ public class SendHealth {
         subHealthInfo.put("WTGSCode", WTGSCode);
 
         //locationCode = 风机号
-        subHealthInfo.put("LocationCode", id);
+        subHealthInfo.put("LocationCode", Util.id2WTNum(id));
 
         //算法模型id
         subHealthInfo.put("ModelId", "风机健康度");

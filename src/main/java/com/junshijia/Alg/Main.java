@@ -1,11 +1,14 @@
 package com.junshijia.Alg;
 
 import com.junshijia.Alg.domain.AlgData;
+import com.junshijia.Alg.health.SendHealth;
 
 public class Main {
     public static void main(String[] args) {
         while(true) {
             FetchAlgData f = new FetchAlgData();
+            SendHealth s = new SendHealth();
+            s.sendAllHealth();
             //用第一条数据测试
             AlgData2Json data1 = new AlgData2Json(f.getDatas().get(0));
             AlgData2Json data2 = new AlgData2Json(f.getDatas().get(1));
@@ -23,7 +26,6 @@ public class Main {
                 e.printStackTrace();
             }
         }
-
 
     }
 }

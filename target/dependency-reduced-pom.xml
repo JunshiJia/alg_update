@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.junshijia</groupId>
   <artifactId>MingyangAlg</artifactId>
-  <version>1.00</version>
+  <version>1.01</version>
   <build>
     <plugins>
       <plugin>
@@ -11,6 +11,7 @@
         <configuration>
           <source>8</source>
           <target>8</target>
+          <encoding>UTF-8</encoding>
         </configuration>
       </plugin>
       <plugin>
@@ -68,5 +69,9 @@
       </exclusions>
     </dependency>
   </dependencies>
+  <properties>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
 </project>
 

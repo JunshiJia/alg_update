@@ -10,6 +10,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 
 public class Util {
     public static void sendData(Integer algLevel, String algTime, String TId, int algId){
@@ -44,7 +45,7 @@ public class Util {
 
             //locationCode = 风机号
             String locationString = TId;
-            subHealthInfo.put("LocationCode", locationString);
+            subHealthInfo.put("LocationCode", id2WTNum(locationString));
 
             //算法模型id
             subHealthInfo.put("ModelId", Util.id2NameAndPart(algId)[2]);
@@ -64,6 +65,7 @@ public class Util {
 
             //调用接口
             System.out.println("输入：" + paramJson.toJSONString());
+            //http://192.168.101.100:8081/service/
             JSONObject jsonObject = postAPIJSONResult("http://192.168.101.100:8081/service/", paramJson.toJSONString());
             System.out.println("输出："+jsonObject.toJSONString());
         }
@@ -83,14 +85,14 @@ public class Util {
             httpConnection.setRequestProperty("Content-Type", "application/json");
             httpConnection.setReadTimeout(30000);//设置超时时间30秒
             OutputStream outputStream = httpConnection.getOutputStream();
-            outputStream.write(paramJson.getBytes("UTF-8"));//增加参数UTF-8编码防止出现乱码
+            outputStream.write(paramJson.getBytes(StandardCharsets.UTF_8));//增加参数UTF-8编码防止出现乱码
             outputStream.flush();
             outputStream.close();
             if (httpConnection.getResponseCode() != 200) {
                 System.out.println("访问地址返回状态：" + httpConnection.getResponseCode());
             }
             // 返回值
-            BufferedReader responseBuffer = new BufferedReader(new InputStreamReader((httpConnection.getInputStream()),"UTF-8"));
+            BufferedReader responseBuffer = new BufferedReader(new InputStreamReader((httpConnection.getInputStream()), StandardCharsets.UTF_8));
             String res = "";
             StringBuilder sb = new StringBuilder("");
             while ((res = responseBuffer.readLine()) != null) {
@@ -359,4 +361,32 @@ public class Util {
 
         return WTGSCode;
     }
+
+    public static String id2WTNum(String TId){
+        String WTGSCode;
+
+        switch (TId) {
+            case "WT1":
+                WTGSCode = "T28";
+                break;
+            case "WT2":
+                WTGSCode = "T29";
+                break;
+            case "WT3":
+                WTGSCode = "T14";
+                break;
+            case "WT4":
+                WTGSCode = "T37";
+                break;
+            case "WT5":
+                WTGSCode = "TB2";
+                break;
+            default:
+                WTGSCode = "99999999";
+                break;
+        }
+
+        return WTGSCode;
+    }
+
 }
